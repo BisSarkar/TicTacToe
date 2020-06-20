@@ -1,0 +1,53 @@
+<!-- Document   : Trivia Game
+     Created on : 30-May-2020, 1:15 AM
+     Author     : Biswajit Sarkar || 991589760
+     Description: html for a tic tac toe question card. 
+	 -->
+<html>
+	<head>
+		<meta charset="utf-8">
+        <header>
+              <link rel="stylesheet" type="text/css" href="TicTacToeA2.css">
+                <h1>Tic Tac Toe!</h1>
+        </header>
+    </head>
+<body>
+<!-- game board -->
+<table>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>2</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+  </tr>
+</table>
+
+<!-- play information and controls -->
+<p>Player <span id="player">X</span> Go!
+  <button id="reset">Reset Game</button>
+</p>
+
+<!-- footer -->
+ <footer> BISWAJIT SARKAR @ Sheridan SYST10199 Web Programming
+</footer>
+
+<!-- hidden elements used for displaying results -->
+<div id="message">
+  <p>GAME OVER!</p>
+    <h3 id="winner"></h3>
+  <p>&mdash;click anywhere in the box to dismiss this message&mdash;</p>
+</div>
+<div id="overlay"></div>
+
+		<script type="text/javascript" src="TicTacToeA2.js"></script>
+	</body>
+</html>
