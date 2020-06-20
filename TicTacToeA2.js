@@ -1,4 +1,4 @@
-/*  Document   : Trivia Game
+/*  Document   : Tic tac toe Game
      Created on : 15-June-2020, 12:15 AM
      Author     : Biswajit Sarkar || 991589760
      Description: java script for a tic tac toe game.  */
