@@ -24,7 +24,7 @@ td {
     font-family: sans-serif;
 }
 
-/* these four turn off outer borders */
+/* these four turn off all outer borders */
 tr:first-child td {
     border-top: none;
 }
