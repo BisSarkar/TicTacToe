@@ -30,7 +30,7 @@ document.getElementById("message").insertBefore(winners, document.getElementById
 // set center aligment for all elements in the table.
 document.getElementsByTagName("TABLE")[0].style = "text-align:center";
 
-// clear the text of all the cell.
+// clear the text of all the cell and make them empty.
 for ( i = 0; i < board.length; i++) {
 	board[i].innerHTML = "";
 }
